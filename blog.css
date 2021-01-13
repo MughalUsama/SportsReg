@@ -1,0 +1,24 @@
+#news-container{
+    margin-top: 160px !important;
+    font-family: Georgia, serif;
+    margin-bottom: 2%;
+}
+
+#new-outline{
+    box-shadow: 0 0 3pt 2pt #44D9E6;
+
+}
+#new-hr{
+    border-color: #44D9E6;
+}
+#new-outline{
+    background: linear-gradient(90deg,#0062e6,#33aeff);
+}
+
+
+@media only screen and (max-width: 600px){
+    #news-container{
+        margin-left: 0.5% !important;
+        width: 109%;
+    }
+}

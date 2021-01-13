@@ -1,0 +1,2 @@
+[24-Dec-2020 06:03:24 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/wellyoed/sportsreg.wellhealth.fit/db.php on line 39
+[24-Dec-2020 06:15:12 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'wellyoed_sportsreg'@'localhost' (using password: YES) in /home/wellyoed/sportsreg.wellhealth.fit/db.php on line 39

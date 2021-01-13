@@ -1,0 +1,101 @@
+.mid-body {
+    margin-bottom: 2% !important;
+    margin-top: 12% !important;    
+ }
+ .card, .card-header{
+     background-color: #44D9E6;
+     ;
+ }
+pre{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ .card-header{
+     border: none;
+ }
+.messages>pre{
+    background-color: #44D9E6;
+    font-size: 16px;
+    color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+ .mid-body{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+.outline-1{
+
+    min-height: 420px;
+}
+.logout-btn{
+    padding: 10px 15px 10px 30px;
+    display: block;
+    color: rgb(255, 255, 255);
+    border: none !important;
+    outline: none !important;
+ }
+ 
+ .logout-btn :focus{
+    border: none !important;
+    outline: none !important;
+ }
+ 
+.sidebar-container{
+    margin-top: -1%;
+}
+
+.content-container{
+    margin-left: 1% !important;
+}
+
+@media only screen and (max-width: 600px){
+    .content-container{
+
+        padding-left: 10px !important;
+}
+}
+
+.rej-btn, .acc-btn, .send-btn{
+    border-radius: 6%;
+    border: none;
+    background-color: #44D9E6;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+}
+
+.card-body{
+    background-color: white !important;
+    border-radius: 3px;
+}
+@media only screen and (max-width: 767px){
+.mid-body{
+    margin-left: 10px;
+    width: 98%;
+    margin-top: 20% !important;
+}
+
+.content-container{
+    margin-left: 1%;
+}
+}
+.content-container{
+    padding-left: 80px !important;
+}
+@media only screen and (max-width: 600px){
+    .mid-body {
+        margin-top: 40% !important;
+        margin-left: 6% !important;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        margin-bottom: 10% !important;
+     }
+    .content-container{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    footer{
+        display: none;
+    }
+
+}
